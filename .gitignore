@@ -1,0 +1,34 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Frontend / Node
+node_modules/
+dist/
+.vite/
+
+# Database & SQLite files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs & OS
+logs/
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Excel temporary locks
+~$*.xlsx
+~$*.xls
